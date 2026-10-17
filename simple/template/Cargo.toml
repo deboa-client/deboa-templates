@@ -7,13 +7,13 @@ license = "MIT"
 edition = "2024"
 
 [dependencies]
-deboa = { version = "0.1.0" }
-deboa-extras = { version = "0.0.9", features = ["json"] }
-deboa-tokio = { version = "0.1.1" }
-tokio = { version = "1.47.2", features = ["macros", "rt-multi-thread"], default-features = false }
+deboa = { version = "0.1.5-beta.6" }
+deboa-extras = { version = "0.1.1-beta.6", features = ["json"] }
+deboa-tokio = { version = "0.1.4-beta.8" }
+tokio = { version = "1.53.3", features = ["macros", "rt-multi-thread"], default-features = false }
 serde = "1.0.219"
 serde_json = "1.0.138"
-http = "1.4.0"
+http = "1.5.0"
 
 [profile.release]
 codegen-units = 1
